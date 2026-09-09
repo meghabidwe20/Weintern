@@ -1,4 +1,4 @@
-# Weintern
+
 # E-Commerce Dataset Cleaning
 
 ## Week 1 – Data Cleaning and Preprocessing
