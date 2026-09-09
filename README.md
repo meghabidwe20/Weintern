@@ -266,6 +266,39 @@ The project provides the following deliverables:
 * README documentation
 
 ---
+## Quality Checklist
+
+The following quality checks were completed before finalizing the e-commerce dataset cleaning project.
+
+| Quality Check                           | Status            | Evidence / Details                                                                                                                                                                       |
+| Missing values handled properly         | ✅ Completed       | `Missing_Value_Report` documents missing values. The completely blank `Unnamed: 9` column contained 67 missing values and was removed. Meaningful business columns had 0 missing values. |
+| Duplicate records reviewed and resolved | ✅ Completed       | `Duplicate_Analysis` documents duplicate checks. 0 fully duplicated rows were found. 2 repeated Order IDs were reviewed and retained because their transaction details were different.   |
+| Validation checks documented            | ✅ Completed       | `Validation_Checks` documents quantity, price, date, category, payment mode, delivery status, city/region, and total amount checks.                                                      |
+| KPIs calculated correctly               | ⚠️ Not applicable | This task focuses on data cleaning rather than KPI/dashboard analysis. No business KPI calculations were required for Task 1.                                                            |
+| Charts are labeled and readable         | ⚠️ Not applicable | No charts were required for the dataset-cleaning task. Charts can be added in a later analysis/dashboard task.                                                                           |
+| Insights are written clearly            | ✅ Completed       | Major data-quality findings and cleaning decisions are documented in the README and `Cleaning_Decisions` sheet.                                                                          |
+| Files are organized in proper folders   | ✅ Completed       | Raw data, cleaned data, Python code, reports, and README are organized according to the project folder structure.                                                                        |
+| Repository is professional and complete | ✅ Completed       | The project includes the README, raw dataset, cleaned workbook, Python cleaning script, validation documentation, and cleaning decisions.                                                |
+
+### Final Quality Summary
+
+**Dataset Records:** 67
+**Original Columns:** 12
+**Final Cleaned Columns:** 11
+**Fully Duplicated Rows:** 0
+**Repeated Order IDs:** 2
+**Completely Blank Columns Removed:** 1
+**Negative Quantities:** 0
+**Zero/Negative Unit Prices:** 0
+**Business-Field Missing Values:** 0
+**Total Amount Mismatches Flagged:** 67
+
+### Final Status
+
+**Overall Project Quality: ✅ Ready for Submission**
+
+The dataset has been inspected, cleaned, validated, and documented. The original data has been preserved, cleaning decisions have been recorded, and the final workbook is structured for further analysis.
+
 
 ## Author Details
 
@@ -281,3 +314,4 @@ The project provides the following deliverables:
 The e-commerce dataset was systematically inspected, cleaned, and validated using Python and Pandas.
 
 The cleaning process improves data quality while preserving the original business information. The resulting dataset is structured and ready for subsequent data analysis, visualization, and reporting.
+
