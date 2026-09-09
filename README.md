@@ -269,7 +269,7 @@ The project provides the following deliverables:
 
 ## Author Details
 
-**Name:** Samiksha Bidwe
+**Name:** Megha Rameshwar Bidwe
 **Project:** E-Commerce Dataset Cleaning
 **Week:** Week 1
 **Task:** Task 1 – E-Commerce Dataset Cleaning
